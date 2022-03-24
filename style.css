@@ -1,23 +1,17 @@
-h1 {
-  color: dodgerblue;
-  font-family: monospace;
+.header{
+    background-color: #000407;
+    color:#3289cd;
+}
+.header .container{
+    display: flex;
+    justify-content:space-between;
 }
 
-h3 {
-  color: indigo;
-  font-family: monospace;
-}
+.navbar{
+    width: 400px;
 
-span {
-  color: #696969;
-  font-family: Arial;
-  font-size: 18px;
-}
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
 
-.destaque {
-  background-color: yellow;
-}
-
-#destaqueEspecial {
-  background-color: aquamarine;
 }
